@@ -1,0 +1,86 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #ffe4ec;
+  margin: 0;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+}
+
+h1, h2, h3 {
+  font-family: 'Pacifico', cursive;
+  color: #d63384;
+}
+
+nav {
+  background: #ffb6c1;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+}
+
+.home p {
+  max-width: 600px;
+  margin: auto;
+}
+
+.decor {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.produk {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+form input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
